@@ -7,3 +7,22 @@ Descrição: Crie um programa que solicite que o usuário digite um número inte
 Exemplo de saída: "O número é par." ou "O número é ímpar".
 
 */
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um número inteiro: ");
+        int numero = int.Parse(Console.ReadLine());
+
+        if (numero % 2 == 0)
+        {
+            Console.WriteLine("O número é par.");
+        }
+        else
+        {
+            Console.WriteLine("O número é ímpar.");
+        }
+    }
+}
