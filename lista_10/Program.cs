@@ -24,11 +24,11 @@ class Program
         {
             double desconto = valorCompra * 0.10;
             double valorFinal = valorCompra - desconto;
-            Console.WriteLine($"Valor descontado: R$ {valorFinal:F2}");
+            Console.WriteLine($"Valor descontado: R$ " + valorFinal);
         }
         else
         {
-            Console.WriteLine($"Valor original: R$ {valorCompra:F2}");
+            Console.WriteLine($"Valor original: R$ " + valorFinal);
         }
     }
 }
